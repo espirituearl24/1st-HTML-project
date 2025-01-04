@@ -1,0 +1,200 @@
+<html>
+	<head>
+		<title>Profile Dashboard</title>
+		<link rel="stylesheet" href="styleprofile.css">
+	</head>
+	
+	<body>
+		<div class="background">
+	
+			<div class="container">
+				<header>
+					<a href="homepage.html"><img class="siz" src="logo1.png"></a>
+					<ul>
+						<li><a href="homepageUser.html">Home</a></li>
+						<li><a href="aboutusUser.html">About</a></li>
+						<li><a href="menuUser.html">Menu</a></li>
+						<li><a href="galleryUser.html">Gallery</a></li>
+						<li><a href="contactUser.html">Contact</a></li>
+						<li><a href="guidelinesUser.html">Guidelines</a></li>
+						<li><a href="profile.html" id="color">PM</a></li>
+					</ul>
+				</header>
+			</div>	
+		
+			<fieldset class="whole">
+				<legend id="about">Account</legend>
+				
+				<div class="text">
+					<span id="font1">Phoebe Rose Montes</span><br><br>
+					 
+					Contact no.: 09465664340<br><br>
+					 
+					Street: Guijo st<br><br>
+
+					Area/Subdivision/Barangay/District: Brgy. Fatima 3-F<br><br>
+
+					City: Dasmariñas City<br><br>
+					<a id="button" href="profile.html">Edit</a><br><br><br><br>
+									 
+				</div>
+				
+				<img src="pro.png" alt="Snow" style="width:40%" id="pic"><br><br>
+				
+				<hr><br>
+				
+				<div class="tab">
+					  <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Order History</button>
+					  <button class="tablinks" onclick="openCity(event, 'Paris')">Pending Orders</button>
+					  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Track Order</button>
+					</div>
+
+					<div id="London" class="tabcontent">
+					  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+					  <h2>Orders</h2>
+					  
+					  <div class="info">
+				
+					<br><br>
+					Epresso doppio &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp &nbsp &nbsp &nbsp70 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp 2
+					
+					<br><br>
+					
+					Macchiato &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp &nbsp 80 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp 1
+					
+					<br><br>
+					
+					Cafe cebuano&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp 80 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp 1
+					
+					<br><br>
+					
+					Matcha latte&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp160 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp1
+					
+					<br><br>
+					
+					Delivery fee&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp 100 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br><br><br>
+					
+					<div id="space">
+					TOTAL:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+							540 </div><br>
+					
+					</div>
+					</div>
+					
+					
+
+					<div id="Paris" class="tabcontent">
+					  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+					  <h2>Your order</h2>
+					  <div class="info">
+				
+					<br><br>
+					Epresso doppio &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp &nbsp &nbsp &nbsp70 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp 1
+					
+			
+					<br><br>
+					
+					Macchiato &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp &nbsp 80 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp 1
+					
+					<br><br>
+					
+					Cafe cebuano&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp 80 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp 1
+					
+					<br><br>
+					
+					Matcha latte&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp160 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp1
+					
+					<br><br>
+					
+					Delivery fee&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp 100 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <br><br><br>
+					
+					<div id="space">
+					TOTAL:&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+							490 </div><br>
+
+				</div>
+					</div>
+
+
+
+
+
+					<div id="Tokyo" class="tabcontent">
+					  <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+					  <h2>Track your order</h2> <br><br>
+					  
+						  <div class="info">
+						  <h3 id="space">&#8226 Order Placed</h3>
+						  We have received your order.<br><br><br><br>
+						  
+						  <h3 id="space">&#8226 Order Confirmed</h3>
+						  Your order has been confirmed.<br><br><br><br>
+						  
+						  <h3 id="space">&#8226 Order Processed</h3>
+						  We are preparing your order.<br><br><br><br>
+						  
+						  <span class="font2"><h3>&#8226 Order Picked-up</h3>
+						 Your order has been picked up for delivery.<br><br>
+						
+						 <h3>Your order is arriving soon!</h3></span>
+						</div>
+						
+						
+					</div>
+					
+					
+					<script>
+					function openCity(evt, cityName) {
+					  var i, tabcontent, tablinks;
+					  tabcontent = document.getElementsByClassName("tabcontent");
+					  for (i = 0; i < tabcontent.length; i++) {
+						tabcontent[i].style.display = "none";
+					  }
+					  tablinks = document.getElementsByClassName("tablinks");
+					  for (i = 0; i < tablinks.length; i++) {
+						tablinks[i].className = tablinks[i].className.replace(" active", "");
+					  }
+					  document.getElementById(cityName).style.display = "block";
+					  evt.currentTarget.className += " active";
+					}
+
+					// Get the element with id="defaultOpen" and click on it
+					document.getElementById("defaultOpen").click();
+					</script>
+				
+				
+			</fieldset >
+			&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+					&nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp 
+					 <a id="button" href="homepage.html">Logout</a>	
+		</div>
+	</body>
+</html>

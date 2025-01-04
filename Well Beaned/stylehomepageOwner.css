@@ -1,0 +1,214 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("BGhome1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%
+	display: flex;
+}
+
+img {
+	max-width: 25%;
+	height: 100%;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+img.siz {
+	padding-bottom: 0.2%;
+	height: 10%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 10 px;
+}
+
+header {
+	background:rgb(0,0,0,0.7);
+	display: flex;
+	align-items: center;
+	padding: 0.3rem 3rem;
+	padding-bottom: 0.1%;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+}
+
+ul a{
+	display: inline-block;
+	padding: 5px 35px;
+	text-decoration: none;
+	color: #CDB206;
+	font-size: 1.325rem;
+	transition: 0.5s ease-in;
+	border-bottom: 2px solid transparent;
+	margin-left: 5px;
+}
+
+ul a:hover {
+	border-bottom: 1px solid #CDB206;
+}
+
+.pos {
+	width: 150%;
+	height: 90%;
+	margin-left: 50px;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.background {
+	background-color:rgb(0,0,0,0.7);
+	height: 110%;
+}
+
+#yel {
+	color: red;
+	padding-right: 10%;
+}
+
+
+
+
+#pic {
+
+}
+
+.whole {
+	color:#CDB206;
+	margin: 5%;
+	padding:5%;
+	font-size: 300%;
+	font-family:'Segoe Script';
+	
+}
+
+#about {
+	text-align: center;
+}
+
+.text {
+	float: right;
+	color: white;
+	margin-left: 2%;
+	padding-left:4%;
+	font-family:'georgia';
+	font-size: 36%;
+	text-align: left;
+	width: 67%;
+	text-align: justify;
+
+}
+
+#button:link, #button:visited {
+  background-color: rgb(80,70,2,0.3);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#button:hover, #button:active {
+  background-color: #CDB206;
+}
+
+span{
+	font-size:250%;
+}
+
+
+
+
+
+
+
+.info {
+	color: white;
+	font-size: 90%;
+}
+
+#space {
+	color: #CDB206;
+	text-align:left;
+}
+
+span.font2 {
+	color:rgb(255, 255, 255, 0.2);
+	font-size: 100%;
+}
+
+
+#color{
+	color: white;
+}
+
+
+
+
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+	background-color: rgb(255, 255, 255, 0.2);
+}
+
+input {
+	padding: 3%;
+}
+
+.headcolor {
+	color:#CDB206;
+}
+
+.style{
+	font-family: 'Segoe Script';
+	font-size: 290%;
+	color: white;
+	text-align: center;
+	margin: 5%;
+}
+
+.announce {
+	font-family: 'Segoe Script';
+	font-size: 250%;
+	color: #CDB206;
+	text-align: center;
+	margin: 5%;
+}
+
+.style1 {
+	font-family: Georgia;
+	font-size: 50%;
+	color: white;
+	text-align: center;
+	margin: 5%;
+}

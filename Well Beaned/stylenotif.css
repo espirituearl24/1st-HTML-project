@@ -1,0 +1,63 @@
+.background {
+	background-color:rgb(0,0,0,0.8);
+	padding: 5%;
+	height: 79%;
+}
+
+.back {
+	background-color: black;
+	padding: 14%;
+}
+
+
+.f1 {
+	text-align: center;
+	font-size: 220%;
+	color: #CDB206;
+	font-family: 'Segoe Script';
+}
+
+.f2 {
+	text-align: center;
+	font-size: 100%;
+	color: white;
+}
+
+.tableDT {
+	color: white;
+}
+
+.tableN {
+	color: white;
+	
+}
+
+
+
+
+
+label {
+	color: white;
+}
+
+i {
+	color: #CDB206;
+}
+
+
+
+#button1:link, #button1:visited {
+  color: white;
+  padding: 15px 25px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#button1:hover, #button1:active {
+  background-color: rgb(80,70,2,0.8);
+}
+
+.b1 {
+	text-align: center;
+}

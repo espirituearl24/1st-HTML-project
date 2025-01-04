@@ -1,0 +1,171 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("BGhome1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%
+	display: flex;
+}
+
+img {
+	max-width: 25%;
+	height: 100%;
+	padding-left: 10px;
+	padding-bottom: 15px;
+}
+
+img.siz {
+	padding-bottom: 0.2%;
+	height: 10%;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px 10 px;
+}
+
+header {
+	background:rgb(0,0,0,1);
+	display: flex;
+	align-items: center;
+	padding: 0.3rem 3rem;
+	padding-bottom: 0.1%;
+}
+
+ul{
+	list-style: none;
+	display: flex;
+}
+
+ul a{
+	display: inline-block;
+	padding: 5px 35px;
+	text-decoration: none;
+	color: #CDB206;
+	font-size: 1.325rem;
+	transition: 0.5s ease-in;
+	border-bottom: 2px solid transparent;
+	margin-left: 5px;
+}
+
+ul a:hover {
+	border-bottom: 1px solid #CDB206;
+}
+
+.pos {
+	width: 150%;
+	height: 90%;
+	margin-left: 50px;
+}
+
+.background {
+	background-color:rgb(0,0,0,0.7);
+	height: 590%;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+
+
+
+.whole {
+	color:#CDB206;
+	margin: 5%;
+	padding:5%;
+	font-size: 300%;
+	font-family:'Segoe Script';
+}
+
+.gal {
+
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row {
+	text-align: center;
+	border: 1% solid white;
+	padding-top: 3%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+
+}
+
+#first {
+	color: #CDB206;
+	font-size: 250%;
+}
+
+p {
+	font-family: 'Segoe Script';
+	font-size: 205%;
+	color: rgb(255, 255, 255, 0.4);
+}
+
+.RR {
+	margin: 10%;
+	padding: 3%;
+	border: 2px solid #CDB206;
+	color: white;
+	font-size: 120%;
+	text-align: center;
+}
+
+#tes1 {
+	font-size: 80%;
+	color: rgb(255, 255, 255, 0.4);
+}
+
+.ip {
+	height: 15%;
+	margin-bottom: 2%;
+	padding-top: 11%;
+	line-spacing: 10%;
+}
+
+.box1{
+	color: white;
+	width: 40%;
+	padding-bottom: 40px;
+	background-color: rgb(255, 255, 255, 0.2);
+	border: none;
+}
+
+#button:link, #button:visited {
+  background-color: rgb(80,70,2,0.3);
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#button:hover, #button:active {
+  background-color: #CDB206;
+}
+
+#color{
+	color: white;
+}
